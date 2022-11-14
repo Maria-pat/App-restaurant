@@ -1,0 +1,45 @@
+header { 
+  color: white;
+  height: 230px;
+  display: flex;
+  align-items: center;
+background-color:rgba(207, 87, 87, 0.986) ;
+}
+header div img {
+  width: 215px;
+  margin-right: 20px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding-right: 20px;
+  text-decoration: none;
+  color: white;
+
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px ;
+}
+main div {
+  background-color: rgba(255, 191, 148, 0.959);
+  border: 1px solid black; 
+  border-radius: 20px ;
+}
+
+main div img{
+  width: 320px ;
+  border-radius: 20px;
+}
+
+
+
+
+

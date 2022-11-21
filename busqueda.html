@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,13 +30,14 @@
             </ul>
         </nav>
     </header>
-    
-    <div> 
-        <h1>Buscar restaurante</h1>
-        <input type="text" style="width: 300px; border-radius: 14px; height: 30px;" placeholder="Encuentra tu restaurante">
-
-    </div>
-    
-    
+    <main>
+        <form> 
+            <h1>Buscar restaurante</h1>
+            <input type="text" style="width: 300px; border-radius: 14px; height: 30px;" placeholder="Encuentra tu restaurante" id="ingreso">
+            <input type="button" value="Buscar" onclick="buscar()">
+        </form>
+        <div class="show-restaurant" style="margin-right: 80px;"></div>
+        <script src="./scriptBuscar.js"></script>
+    </main>
 </body>
 </html>

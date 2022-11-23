@@ -1,6 +1,6 @@
 const listaRestaurantes = [
     {
-        imagen: `<img src="../imagen/01.jpg"/>`,
+        imagen: `<img src="imagen/01.jpg"/>`,
         nombre: `<h3>Pacifico mar</h3>`,
         descripcion: `<p>Deliciosa comida de mar<p>`,
         direccion: `<p>avenida 85 #45 barranquilla</p>`

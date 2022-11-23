@@ -9,7 +9,6 @@ header div img {
   width: 215px;
   margin-right: 20px;
 }
-
 header nav ul {
   display: flex;
   list-style: none;
@@ -21,7 +20,6 @@ header nav ul li a {
   color: white;
 
 }
-
 main {
   width: 100%;
   display: flex;
@@ -33,13 +31,7 @@ main div {
   border: 1px solid black; 
   border-radius: 20px ;
 }
-
 main div img{
   width: 320px ;
   border-radius: 20px;
 }
-
-
-
-
-
